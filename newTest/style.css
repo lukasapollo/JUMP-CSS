@@ -1,0 +1,58 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    width: 500px;
+    background-color: rgb(182, 187, 227);
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.ul-section{
+    display: flex;
+    gap: 2rem;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    overscroll-behavior-inline: contain;
+    scroll-snap-type: inline mandatory;    
+
+
+}
+
+.ul-section li{
+    min-width: 100%;
+    scroll-snap-align: center;
+    height: 153px;
+    list-style: none;
+    text-align: center;
+    color: white;
+    
+}
+
+.scroll-style::-webkit-scrollbar{
+    background: rgb(21, 33, 57);
+    width: 5px;
+    height: 5px;
+}
+
+
+.scroll-style::-webkit-scrollbar-thumb {
+    background: rgb(20, 26, 52);
+    border-radius: 5px;
+}
+
+.scroll-styler::-webkit-scrollbar-track {
+    background: rgb(52, 60, 74);
+    border-radius: 5px;
+}
+
+.ul-section li div{
+    position: relative;
+    padding: 58px 35px;
+    background-color: rgb(16, 88, 118);
+}
+

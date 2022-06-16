@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+
+
+/* Navbar */
+
+.navbar{
+    display: flex;
+   
+}
+
+
+
+/* List */
+
+.list-style-none{
+    list-style-type: none;
+}
+
+/* Link */
+
+.link-d{
+    text-decoration: none;
+}
+
+#btn-menu{
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .navbar{
+        padding: 12px 0;
+    }
+
+    #btn-menu{
+        display: inline;
+    }
+
+    .navbar ul{
+       flex-direction: column;
+       position: absolute;
+       width: 100vw;
+       transition: all 0.4s;
+       gap: 0px;
+    }
+
+    .navbar ul li{
+        padding: 0 10px;
+    }
+
+    .toggle-on{
+        top: 67px;
+        opacity: 1;
+        display: flex;
+    }
+
+
+    .toggle-off{
+        top: 100px;
+        opacity: 0;
+        display: none;
+    }
+
+    .bx-menu{
+        font-size: 1.3rem;
+    }
+}
