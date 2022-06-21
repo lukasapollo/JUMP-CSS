@@ -33,31 +33,34 @@
 /* padding y */
 
 .py-1{
-    padding: 0.3rem;
+    padding: 0.3rem 0;
 }
 .py-2{
-    padding: 0.6rem;
+    padding: 0.6rem 0;
 }
 .py-3{
-    padding: 1rem;
+    padding: 1.5rem 0;
+}
+.py-4{
+    padding: 1.5rem 0;
 }
 .py-5{
-    padding: 1.5rem;
+    padding: 1.8rem 0;
 }
 .py-6{
-    padding: 1.8rem;
+    padding: 2rem 0;
 }
 .py-7{
-    padding: 2rem;
+    padding: 2.5rem 0;
 }
 .py-8{
-    padding: 2.5rem;
+    padding: 3rem 0;
 }
 .py-9{
-    padding: 3rem;
+    padding: 4rem 0;
 }
 .py-10{
-    padding: 4rem;
+    padding: 5rem 0;
 }
 
 /* padding x */
@@ -69,23 +72,26 @@
     padding: 0 0.6rem;
 }
 .px-3{
-    padding: 0 1rem;
-}
-.px-5{
     padding: 0 1.5rem;
 }
-.px-6{
+.px-4{
+    padding: 0 1.5rem;
+}
+.px-5{
     padding: 0 1.8rem;
 }
-.px-7{
+.px-6{
     padding: 0 2rem;
 }
-.px-8{
+.px-7{
     padding: 0 2.5rem;
 }
-.px-9{
+.px-8{
     padding: 0 3rem;
 }
-.px-10{
+.px-9{
     padding: 0 4rem;
+}
+.px-10{
+    padding: 0 5rem;
 }

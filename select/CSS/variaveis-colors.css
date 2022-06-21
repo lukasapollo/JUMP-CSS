@@ -1,0 +1,26 @@
+.dark:root {
+
+    --bg-body: rgb(17 24 39);
+    --bg-color: #0b0f18;
+    --bg-scroll-nav: #1b1b1b;
+    --bg-list: #090e17;
+    --color-i: #15cf00;
+    --list-hover: #58128d;
+    --font-options: #606060;
+    --scroll-thumb: rgb(28, 138, 16);
+    --box-shadow: 1px 1px 1px #191919;
+}
+
+.light:root{
+
+    --bg-body: #d4d1d6;
+
+    --bg-color: #d8d7d8;
+    --bg-scroll-nav: #bbacbd;
+    --bg-list: #d1d1d1;
+    --color-i: #7b608d;
+    --list-hover: #c4bdc7;
+    --font-options: #8f72a6;
+    --scroll-thumb: #8e7f99;
+    --box-shadow: 1px 1px 1px #c7c7c7;
+}

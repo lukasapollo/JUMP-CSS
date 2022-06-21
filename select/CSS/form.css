@@ -1,0 +1,27 @@
+.container-form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    gap: 1rem;
+}
+
+.container-form .ipts-text{
+    height: 40px;
+    background-color: var(--bg-color);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 0 20px;
+    color: rgb(159, 159, 159);
+    box-shadow: var(--box-shadow);
+}
+
+.btn{
+    height: 40px;
+    background-color: blueviolet;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    box-shadow: 0px 0px 6px 3px #a100ff59;
+}

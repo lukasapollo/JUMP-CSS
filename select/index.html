@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./CSS/lib/jump.main.css">
+    <link rel="stylesheet" href="./CSS/all.css">
+    <title>Component Option</title>
+</head>
+<body>
+    <div class="body-container">
+
+        <div class="color-theme">
+            <div data-mode="light" class="btn-theme"><i class='bx bx-brightness-half'></i></div>
+            <div data-mode="dark" class="btn-theme"><i class='bx bxs-brightness-half' ></i></div>
+        </div>
+
+        <div class="container-form">
+            <input class="ipts-text" placeholder="Nome" type="text">
+            <input class="ipts-text" placeholder="Tipo de serviço" type="text">
+           
+
+            <div class="component-select">
+                <div class="cx-select">
+                    <div class="ctn-ipt"><input id="ipt-1" class="" value="" placeholder="Escolha o melhor horario..." disabled></div>
+                    <div class="ctn-ipt-2">
+                        <i class='icon-select bx bx-chevron-down'></i>
+                        <i class='icon-select bx disabled-select bxs-check-circle' ></i>
+                    </div>
+                </div>
+    
+                <nav id="nav-options" class="disabled-select">
+                    <ul>
+                        <li data-select=""><span><i class='bx bxs-time-five' ></i></span><p>default</p></li>
+                        <li data-select="9:00"><span><i class='bx bxs-time-five' ></i></span><p>9:00</p></li>
+                        <li data-select="10:00"><span><i class='bx bxs-time-five' ></i></span><p>10:00</p></li>
+                        <li data-select="11:00"><span><i class='bx bxs-time-five' ></i></span><p>11:00</p></li>
+                        <li data-select="12:00"><span><i class='bx bxs-time-five' ></i></span><p>12:00</p></li>
+                        <li data-select="13:00"><span><i class='bx bxs-time-five' ></i></span><p>13:00</p></li>
+                        <li data-select="14:00"><span><i class='bx bxs-time-five' ></i></span><p>14:00</p></li>
+                        <li data-select="15:00"><span><i class='bx bxs-time-five' ></i></span><p>15:00</p></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <button class="btn">Enviar</button>
+        </div>
+
+       
+
+    </div>
+
+    <script src="./JS/select.js"></script>
+    <script src="./JS/dark-mode.js"></script>
+</body>
+</html>

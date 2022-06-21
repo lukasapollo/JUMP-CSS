@@ -1,5 +1,10 @@
-/* Colors - Slate */
+/* Colors Default */
 
+.bg-white{
+    background-color: white;
+}
+
+/* Colors - Slate */
 .bg-slate-50{
     background-color: rgb(248 250 252);
 }
